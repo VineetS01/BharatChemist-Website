@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.allopathic,
+.ayurvedic
+.homeopathic {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.products{
+  display: flex;
+  height: 90vh;
+  align-items: top;
+  justify-content: center;
+  font-size: 3rem;
+}
+.contact-us{
+  display: flex;
+  height: 90vh;
+  font-size: 3rem;
+  text-align: justify;
+}
+.address{
+  text-align: left;
+  color: white;
+  justify-content: center;
+  align-items:center;
+  
+}
+.head{
+  display: flex;
+  font-size: 50px;
+  position: relative;
+  top: 70px;
+}
+.bod{
+  font-size: 25px;
+  position: relative;
+  top: 120px;
+  right: 350px;
+  
+}
+
+.home {
+  background-image: url('./images/back.jpg');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 80px;
+}
+
+.services {
+  background-image: url('./images/back.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('./images/back.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact-us {
+  background-image: url('./images/back.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  font-size: 20px;
+}
+
+.allopathic {
+  background-image: url('./images/back.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.ayurvedic {
+  background-image: url('./images/back.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.homeopathic{
+  background-image: url('./images/back.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.copyright{
+  text-align: center;
+  font-size:x-large;
+  background-color:black;
+  color: #fff;
+}
